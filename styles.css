@@ -1,0 +1,28 @@
+:root {
+  --orange: hsl(28, 84%, 61%);
+  --pink: hsl(333, 80%, 67%);
+  --purple-900: hsl(300, 43%, 22%);
+  --purple-300: hsl(303, 10%, 53%);
+  --purple-100: hsl(300, 24%, 96%);
+  --main-font: "League Spartan", Helvetica, sans-serif;
+  --bold: 700;
+  --medium: 500;
+  --regular: 400;
+  --line-height-85: 85%;
+  --line-height-100: 100%;
+  --line-height-130: 130%;
+  --line-height-135: 135%;
+  --font-size-17: 1.0625rem;
+  --font-size-19: 1.1176rem;
+  --font-size-40: 2.5rem;
+  --font-size-56: 3.5rem;
+  --letter-spacing--2: -0.125rem;
+  --letter-spacing--06: -0.0375rem;
+  --letter-spacing--03: -0.01875rem;
+  --spacing-8: 0.5rem;
+  --spacing-16: 1rem;
+  --spacing-24: 1.5rem;
+  --spacing-32: 2rem;
+  --spacing-48: 3rem;
+  --spacing-96: 6rem;
+}
