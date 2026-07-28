@@ -14,8 +14,7 @@
   --line-height-135: 135%;
   --font-size-17: 1.0625rem;
   --font-size-19: 1.1176rem;
-  --font-size-40: 2.5rem;
-  --font-size-56: 3.5rem;
+  --header-clamp: clamp(2.5rem, 1.546rem + 4.071vw, 3.5rem);
   --letter-spacing--2: -0.125rem;
   --letter-spacing--06: -0.0375rem;
   --letter-spacing--03: -0.01875rem;
@@ -65,7 +64,7 @@ body {
     margin-inline: var(--spacing-16);
     margin-bottom: var(--spacing-16);
     color: var(--purple-900);
-    font-size: var(--font-size-40);
+    font-size: var(--header-clamp);
     line-height: var(--line-height-85);
     letter-spacing: var(--letter-spacing--2);
     text-align: center;
