@@ -53,4 +53,7 @@ li {
 
 body {
   font-family: var(--main-font);
+  display: flex;
+  flex-direction: column;
+  padding-inline: var(--spacing-24);
 }
