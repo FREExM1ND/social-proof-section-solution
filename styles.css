@@ -56,6 +56,9 @@ body {
   font-family: var(--main-font);
   display: flex;
   flex-direction: column;
-  padding-inline: var(--spacing-24);
-  padding-block: var(--spacing-80);
+}
+
+.container {
+  margin-inline: var(--spacing-24);
+  margin-block: var(--spacing-80);
 }
