@@ -24,6 +24,7 @@
   --spacing-24: 1.5rem;
   --spacing-32: 2rem;
   --spacing-48: 3rem;
+  --spacing-80: 5rem;
   --spacing-96: 6rem;
 }
 
@@ -56,4 +57,5 @@ body {
   display: flex;
   flex-direction: column;
   padding-inline: var(--spacing-24);
+  padding-block: var(--spacing-80);
 }
