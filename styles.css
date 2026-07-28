@@ -61,4 +61,20 @@ body {
 .container {
   margin-inline: var(--spacing-24);
   margin-block: var(--spacing-80);
+  & .container__header {
+    margin-inline: var(--spacing-16);
+    margin-bottom: var(--spacing-16);
+    color: var(--purple-900);
+    font-size: var(--font-size-40);
+    line-height: var(--line-height-85);
+    letter-spacing: var(--letter-spacing--2);
+    text-align: center;
+  }
+  & .container__subhead {
+    color: var(--purple-300);
+    font-size: var(--font-size-19);
+    line-height: var(--line-height-135);
+    letter-spacing: var(--letter-spacing--06);
+    text-align: center;
+  }
 }
