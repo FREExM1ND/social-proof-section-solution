@@ -105,3 +105,10 @@ body {
     }
   }
 }
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  & .testimonials__card {
+  }
+}
