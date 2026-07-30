@@ -25,6 +25,8 @@
   --spacing-48: 3rem;
   --spacing-80: 5rem;
   --spacing-96: 6rem;
+  --stars-container-mobile-height: 4.875rem;
+  --stars-container-border-radius: 0.5rem;
 }
 
 html {
@@ -75,5 +77,31 @@ body {
     line-height: var(--line-height-135);
     letter-spacing: var(--letter-spacing--06);
     text-align: center;
+  }
+}
+
+.container__reviews {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16);
+  & .container__review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-16);
+    height: var(--stars-container-mobile-height);
+    background-color: var(--purple-100);
+    border-radius: var(--stars-container-border-radius);
+    & .container__stars {
+      display: flex;
+      gap: var(--spacing-8);
+    }
+    & .container__rating {
+      color: var(--purple-900);
+      font-size: var(--font-size-17);
+      font-weight: var(--bold);
+      line-height: var(--line-height-100);
+    }
   }
 }
