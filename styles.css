@@ -27,6 +27,7 @@
   --spacing-96: 6rem;
   --stars-container-mobile-height: 4.875rem;
   --border-radius: 0.5rem;
+  --user-info-width: 10.125rem;
   --avatar-size: 2.5rem;
   --avatar-border-radius: 50%;
 }
@@ -126,13 +127,20 @@ body {
     grid-template-areas:
       "pic name"
       "pic ver";
+    max-width: var(--user-info-width);
     margin-bottom: var(--spacing-32);
     & .testimonials__avatar {
+      grid-area: pic;
       height: var(--avatar-size);
       border-radius: var(--avatar-border-radius);
       margin-right: var(--spacing-24);
     }
+    & .testimonials__name {
+      grid-area: name;
+      font-weight: var(--bold);
+    }
     & .testimonials__verified {
+      grid-area: ver;
       color: var(--pink);
     }
   }
