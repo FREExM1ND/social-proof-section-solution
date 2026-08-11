@@ -118,8 +118,8 @@ body {
   & .testimonials__card {
     padding: var(--spacing-32);
     background-color: var(--purple-900);
-    color: white;
     border-radius: var(--border-radius);
+    color: white;
   }
   & .testimonials__user-info {
     display: grid;
@@ -131,7 +131,9 @@ body {
       height: var(--avatar-size);
       border-radius: var(--avatar-border-radius);
       margin-right: var(--spacing-24);
-    } 
+    }
+    & .testimonials__verified {
+      color: var(--pink);
     }
   }
 }
