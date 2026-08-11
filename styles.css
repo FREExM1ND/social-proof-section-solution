@@ -84,6 +84,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-16);
+  & .container__review:last-of-type {
+    margin-bottom: var(--spacing-48);
+  }
   & .container__review {
     display: flex;
     flex-direction: column;
