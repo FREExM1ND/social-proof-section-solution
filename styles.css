@@ -27,6 +27,8 @@
   --spacing-96: 6rem;
   --stars-container-mobile-height: 4.875rem;
   --stars-container-border-radius: 0.5rem;
+  --avatar-size: 2.5rem;
+  --avatar-border-radius: 50%;
 }
 
 html {
@@ -123,6 +125,11 @@ body {
     grid-template-areas:
       "pic name"
       "pic ver";
+    & .testimonials__avatar {
+      height: var(--avatar-size);
+      border-radius: var(--avatar-border-radius);
+      margin-right: var(--spacing-24);
+    } 
     }
   }
 }
