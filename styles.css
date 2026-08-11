@@ -126,6 +126,7 @@ body {
     grid-template-areas:
       "pic name"
       "pic ver";
+    margin-bottom: var(--spacing-32);
     & .testimonials__avatar {
       height: var(--avatar-size);
       border-radius: var(--avatar-border-radius);
