@@ -120,5 +120,9 @@ body {
   }
   & .testimonials__user-info {
     display: grid;
+    grid-template-areas:
+      "pic name"
+      "pic ver";
+    }
   }
 }
