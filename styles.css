@@ -12,6 +12,7 @@
   --line-height-100: 100%;
   --line-height-130: 130%;
   --line-height-135: 135%;
+  --font-size-12: 0.75rem;
   --font-size-17: 1.0625rem;
   --font-size-19: 1.1176rem;
   --header-clamp: clamp(2.5rem, 1.546rem + 4.071vw, 3.5rem);
@@ -151,5 +152,19 @@ body {
       grid-area: ver;
       color: var(--pink);
     }
+  }
+}
+
+.credits {
+  text-align: center;
+  font-size: var(--font-size-12);
+  color: var(--purple-900);
+  font-weight: var(--bold);
+  & a {
+    color: var(--purple-900);
+    text-decoration: none;
+  }
+  & a:hover {
+    color: var(--pink);
   }
 }
