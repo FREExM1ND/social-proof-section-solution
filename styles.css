@@ -27,9 +27,11 @@
   --spacing-96: 6rem;
   --stars-container-mobile-height: 4.875rem;
   --border-radius: 0.5rem;
-  --user-info-width: 10.125rem;
+  --user-info-width: 10.375rem;
   --avatar-size: 2.5rem;
   --avatar-border-radius: 50%;
+  --user-info-height: 2.5rem;
+  --testimonial-height: 15.375rem;
 }
 
 html {
@@ -117,23 +119,29 @@ body {
   flex-direction: column;
   gap: var(--spacing-16);
   & .testimonials__card {
+    height: var(--testimonial-height);
     padding: var(--spacing-32);
     background-color: var(--purple-900);
     border-radius: var(--border-radius);
     color: white;
+    font-size: var(--font-size-17);
+  }
+  & .testimonials__testimonial {
+    line-height: var(--line-height-130);
   }
   & .testimonials__user-info {
     display: grid;
     grid-template-areas:
       "pic name"
       "pic ver";
-    max-width: var(--user-info-width);
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: var(--spacing-24);
     margin-bottom: var(--spacing-32);
     & .testimonials__avatar {
       grid-area: pic;
       height: var(--avatar-size);
       border-radius: var(--avatar-border-radius);
-      margin-right: var(--spacing-24);
     }
     & .testimonials__name {
       grid-area: name;
