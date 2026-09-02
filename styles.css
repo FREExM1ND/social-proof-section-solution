@@ -33,6 +33,7 @@
   --avatar-border-radius: 50%;
   --user-info-height: 2.5rem;
   --testimonial-height: 15.375rem;
+  --container-tablet-padding: 4.84rem;
 }
 
 html {
@@ -175,4 +176,26 @@ body {
   & a:hover {
     color: var(--pink);
   }
+}
+
+@media screen and (width >= 45rem) {
+  .container {
+    margin-inline: var(--spacing-80);
+    padding: var(--container-tablet-padding);
+    & .container__header {
+    }
+    & .container__subhead {
+    }
+  }
+
+  .container__reviews {
+    & .container__review {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  }
+}
+
+@media screen and (width >= 75rem) {
 }
