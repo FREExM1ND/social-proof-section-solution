@@ -88,13 +88,14 @@ body {
       line-height: var(--line-height-85);
       letter-spacing: var(--letter-spacing--2);
       font-weight: var(--bold);
+      border: 1px solid black;
     }
     & .container__subhead {
       color: var(--purple-300);
       font-size: var(--font-size-19);
       line-height: var(--line-height-135);
-      letter-spacing: var(--letter-spacing--06);
       font-weight: var(--medium);
+      border: 1px solid black;
     }
   }
 }
