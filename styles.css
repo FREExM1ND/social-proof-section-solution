@@ -193,6 +193,8 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
+      gap: var(--spacing-32);
+      padding-left: var(--spacing-32);
     }
   }
 }
