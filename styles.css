@@ -34,6 +34,8 @@
   --user-info-height: 2.5rem;
   --testimonial-height: 15.375rem;
   --container-tablet-padding: 4.84rem;
+  --stars-container-tablet-height: 3rem;
+  --stars-container-max-width: 28.3125rem;
 }
 
 html {
@@ -112,6 +114,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
     gap: var(--spacing-16);
     height: var(--stars-container-mobile-height);
     background-color: var(--purple-100);
@@ -200,12 +203,15 @@ body {
 
   .container__reviews {
     margin-inline: var(--container-tablet-padding);
+    align-items: center;
     & .container__review {
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
       gap: var(--spacing-32);
       padding-left: var(--spacing-32);
+      height: var(--stars-container-tablet-height);
+      width: var(--stars-container-max-width);
     }
   }
 }
