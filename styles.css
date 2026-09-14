@@ -26,7 +26,6 @@
   --spacing-48: 3rem;
   --spacing-80: 5rem;
   --spacing-96: 6rem;
-  --stars-container-mobile-height: 4.875rem;
   --border-radius: 0.5rem;
   --user-info-width: 10.375rem;
   --avatar-size: 2.5rem;
@@ -35,8 +34,10 @@
   --testimonial-mobile-height: 15.375rem;
   --testimonial-tablet-height: 14rem;
   --container-tablet-padding: 4.84rem;
+  --stars-container-mobile-height: 4.875rem;
   --stars-container-tablet-height: 3rem;
   --stars-container-max-width: 28.3125rem;
+  --subhead-tablet-margin-inline: 4.375rem;
 }
 
 html {
@@ -198,7 +199,7 @@ body {
         border: 1px solid black;
       }
       & .container__subhead {
-        margin-inline: var(--spacing-80);
+        margin-inline: var(--subhead-tablet-margin-inline);
       }
     }
   }
