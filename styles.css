@@ -33,7 +33,8 @@
   --user-info-height: 2.5rem;
   --testimonial-mobile-height: 15.375rem;
   --testimonial-tablet-height: 14rem;
-  --container-tablet-padding: 4.84rem;
+  --container-tablet-padding: 0 4.84rem 0 4.84rem;
+  --container-tablet-margin-block: 7.375rem;
   --stars-container-mobile-height: 4.875rem;
   --stars-container-tablet-height: 3rem;
   --stars-container-max-width: 28.3125rem;
@@ -188,10 +189,6 @@ body {
 @media screen and (width >= 45rem) {
   .container {
     padding: var(--container-tablet-padding);
-      & .container__subhead {
-        margin-inline: var(--subhead-tablet-margin-inline);
-      }
-    }
     margin-block: var(--container-tablet-margin-block);
   }
 
@@ -200,7 +197,6 @@ body {
   }
 
   .container__reviews {
-    margin-inline: var(--container-tablet-padding);
     align-items: center;
     & .container__review {
       display: flex;
