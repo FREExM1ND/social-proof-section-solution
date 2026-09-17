@@ -24,6 +24,7 @@
   --spacing-24: 1.5rem;
   --spacing-32: 2rem;
   --spacing-48: 3rem;
+  --spacing-60: 3.75rem;
   --spacing-80: 5rem;
   --spacing-96: 6rem;
   --border-radius: 0.5rem;
@@ -219,4 +220,27 @@ body {
 }
 
 @media screen and (width >= 75rem) {
+  body {
+    background-image:
+      url("./images/bg-pattern-top-desktop.svg"),
+      url("./images/bg-pattern-bottom-desktop.svg");
+  }
+
+  .container {
+    display: grid;
+    /*grid-template-areas:
+      "header reviews"
+      "testimonials testimonials";*/
+    & .container__header {
+      margin-bottom: var(--spacing-60);
+      & .container__head,
+      .container__subhead {
+        text-align: left;
+      }
+    }
+  }
+
+  .testimonials {
+    flex-direction: row;
+  }
 }
