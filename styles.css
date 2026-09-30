@@ -34,7 +34,7 @@
   --user-info-height: 2.5rem;
   --testimonial-mobile-height: 15.375rem;
   --testimonial-tablet-height: 14rem;
-  --testimonails-container-height-desktop: 16rem;
+  --testimonials-container-height-desktop: 16rem;
   --container-tablet-padding: 0 4.84rem 0 4.84rem;
   --container-tablet-margin-block: 7.375rem;
   --stars-container-mobile-height: 4.875rem;
@@ -262,7 +262,7 @@ body {
   .testimonials {
     flex-direction: row;
     grid-area: testimonials;
-    height: var(--testimonails-container-height-desktop);
+    height: var(--testimonials-container-height-desktop);
     & .testimonials__card:first-of-type {
       margin-bottom: var(--spacing-32);
     }
