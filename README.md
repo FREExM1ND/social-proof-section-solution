@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/responsive-landing-page-for-huddle-with-focus-states-lSwHBfZ1Qi)
+- [Solution URL](https://www.frontendmentor.io/solutions/reviews-and-testimonials-page-using-flexbox-and-grid-layouts-fQQLM676JJ)
 - [Live Site URL](https://freexm1nd.github.io/social-proof-section-solution/)
 
 ## My process
